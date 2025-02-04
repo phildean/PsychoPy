@@ -1,0 +1,480 @@
+24.1473 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AC3E3CDF90>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AC3E3CDFF0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AC3E454D00>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='deg', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.1474 	EXP 	window1: backgroundImage = ''
+24.1474 	EXP 	window1: backgroundFit = 'none'
+24.2151 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+24.2151 	EXP 	window1: recordFrameIntervals = False
+24.3414 	EXP 	window1: recordFrameIntervals = True
+24.5253 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+24.5254 	EXP 	window1: recordFrameIntervals = False
+27.1485 	EXP 	n-back: status = STARTED
+27.4215 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0000000000000004, italic=False, languageStyle='LTR', name='instructions', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=45)
+27.4242 	EXP 	Created textBlockStart1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0000000000000004, italic=False, languageStyle='LTR', name='textBlockStart1', opacity=1, ori=0.0, pos=array([0., 2.]), rgb=UNKNOWN, text='Block:', units='deg', win=Window(...), wrapWidth=15.0)
+27.4248 	EXP 	Created textBlockStart2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='textBlockStart2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+27.4270 	EXP 	Created textBlockStart3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0000000000000004, italic=False, languageStyle='LTR', name='textBlockStart3', opacity=1, ori=0.0, pos=array([ 0., -2.]), rgb=UNKNOWN, text='Press SPACE to continue', units='deg', win=Window(...), wrapWidth=15.0)
+27.4280 	EXP 	Created trial_stimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=2.5, italic=False, languageStyle='LTR', name='trial_stimulus', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='deg', win=Window(...), wrapWidth=15.0)
+27.4313 	EXP 	Created textBlockEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlockEnd', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='deg', win=Window(...), wrapWidth=15.0)
+27.4431 	EXP 	Created text_confidencetask = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=1.0000000000000004, italic=False, languageStyle='LTR', name='text_confidencetask', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=25.0)
+27.5766 	EXP 	Created slider_confidence = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=1.0000000000000002, labelWrapWidth=None, labels=['0', '25', '50', '75', '100'], lineColor=None, markerColor=None, name='slider_confidence', opacity=None, ori=0.0, pos=array([ 0., -3.]), readOnly=False, self=UNKNOWN, size=array([25.,  1.]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='deg', win=Window(...))
+0.0047 	EXP 	slider_confidence: autoLog = True
+0.0047 	EXP 	slider_confidence: styleTweaks = []
+0.0047 	EXP 	slider_confidence: styleTweaks = []
+0.0047 	EXP 	slider_confidence: styleTweaks = []
+0.0047 	EXP 	slider_confidence: styleTweaks = []
+0.0047 	EXP 	slider_confidence: contrast = 1.0
+0.0047 	EXP 	slider_confidence: markerPos = None
+0.0047 	EXP 	slider_confidence: autoLog = True
+0.0171 	EXP 	instructions: autoDraw = True
+18.9403 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+18.9448 	DATA 	Keypress: space
+18.9457 	EXP 	instructions: autoDraw = False
+18.9457 	EXP 	textBlockStart2: height = 1.0000000000000002
+18.9457 	EXP 	textBlockStart2: height = 1.0000000000000004
+18.9457 	EXP 	textBlockStart2: height = 1.0000000000000004
+18.9457 	EXP 	textBlockStart2: text = 1
+18.9457 	EXP 	textBlockStart1: autoDraw = True
+18.9457 	EXP 	textBlockStart2: autoDraw = True
+18.9457 	EXP 	textBlockStart3: autoDraw = True
+19.8553 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+19.8726 	DATA 	Keypress: space
+19.8735 	EXP 	textBlockStart1: autoDraw = False
+19.8735 	EXP 	textBlockStart2: autoDraw = False
+19.8735 	EXP 	textBlockStart3: autoDraw = False
+19.8735 	EXP 	trial_stimulus: height = 2.5
+19.8735 	EXP 	trial_stimulus: height = 2.5
+19.8735 	EXP 	trial_stimulus: height = 2.5
+19.8735 	EXP 	trial_stimulus: text = 'B'
+19.8735 	EXP 	trial_stimulus: autoDraw = True
+20.3863 	EXP 	trial_stimulus: autoDraw = False
+21.8704 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+21.8866 	EXP 	trial_stimulus: autoDraw = False
+21.8866 	EXP 	trial_stimulus: height = 2.5
+21.8866 	EXP 	trial_stimulus: height = 2.5
+21.8866 	EXP 	trial_stimulus: height = 2.5
+21.8866 	EXP 	trial_stimulus: text = 'H'
+21.8866 	EXP 	trial_stimulus: autoDraw = True
+22.3867 	EXP 	trial_stimulus: autoDraw = False
+23.8707 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+23.8868 	EXP 	trial_stimulus: autoDraw = False
+23.8868 	EXP 	trial_stimulus: height = 2.5
+23.8868 	EXP 	trial_stimulus: height = 2.5
+23.8868 	EXP 	trial_stimulus: height = 2.5
+23.8868 	EXP 	trial_stimulus: text = 'E'
+23.8868 	EXP 	trial_stimulus: autoDraw = True
+24.3870 	EXP 	trial_stimulus: autoDraw = False
+25.8712 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+25.8872 	EXP 	trial_stimulus: autoDraw = False
+25.8872 	EXP 	trial_stimulus: height = 2.5
+25.8872 	EXP 	trial_stimulus: height = 2.5
+25.8872 	EXP 	trial_stimulus: height = 2.5
+25.8872 	EXP 	trial_stimulus: text = 'H'
+25.8872 	EXP 	trial_stimulus: autoDraw = True
+26.3875 	EXP 	trial_stimulus: autoDraw = False
+27.8715 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+27.8877 	EXP 	trial_stimulus: autoDraw = False
+27.8877 	EXP 	trial_stimulus: height = 2.5
+27.8877 	EXP 	trial_stimulus: height = 2.5
+27.8877 	EXP 	trial_stimulus: height = 2.5
+27.8877 	EXP 	trial_stimulus: text = 'F'
+27.8877 	EXP 	trial_stimulus: autoDraw = True
+28.3878 	EXP 	trial_stimulus: autoDraw = False
+29.8553 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+29.8717 	EXP 	trial_stimulus: autoDraw = False
+29.8717 	EXP 	trial_stimulus: height = 2.5
+29.8717 	EXP 	trial_stimulus: height = 2.5
+29.8717 	EXP 	trial_stimulus: height = 2.5
+29.8717 	EXP 	trial_stimulus: text = 'H'
+29.8717 	EXP 	trial_stimulus: autoDraw = True
+30.3717 	EXP 	trial_stimulus: autoDraw = False
+31.8556 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+31.8720 	EXP 	trial_stimulus: autoDraw = False
+31.8720 	EXP 	trial_stimulus: height = 2.5
+31.8720 	EXP 	trial_stimulus: height = 2.5
+31.8720 	EXP 	trial_stimulus: height = 2.5
+31.8720 	EXP 	trial_stimulus: text = 'G'
+31.8720 	EXP 	trial_stimulus: autoDraw = True
+32.3718 	EXP 	trial_stimulus: autoDraw = False
+33.8558 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+33.8723 	EXP 	trial_stimulus: autoDraw = False
+33.8723 	EXP 	trial_stimulus: height = 2.5
+33.8723 	EXP 	trial_stimulus: height = 2.5
+33.8723 	EXP 	trial_stimulus: height = 2.5
+33.8723 	EXP 	trial_stimulus: text = 'A'
+33.8723 	EXP 	trial_stimulus: autoDraw = True
+34.3724 	EXP 	trial_stimulus: autoDraw = False
+35.8565 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+35.8727 	EXP 	trial_stimulus: autoDraw = False
+35.8727 	EXP 	trial_stimulus: height = 2.5
+35.8727 	EXP 	trial_stimulus: height = 2.5
+35.8727 	EXP 	trial_stimulus: height = 2.5
+35.8727 	EXP 	trial_stimulus: text = 'B'
+35.8727 	EXP 	trial_stimulus: autoDraw = True
+36.3727 	EXP 	trial_stimulus: autoDraw = False
+37.8571 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+37.8731 	EXP 	trial_stimulus: autoDraw = False
+37.8731 	EXP 	trial_stimulus: height = 2.5
+37.8731 	EXP 	trial_stimulus: height = 2.5
+37.8731 	EXP 	trial_stimulus: height = 2.5
+37.8731 	EXP 	trial_stimulus: text = 'C'
+37.8731 	EXP 	trial_stimulus: autoDraw = True
+38.3733 	EXP 	trial_stimulus: autoDraw = False
+39.8573 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+39.8735 	EXP 	trial_stimulus: autoDraw = False
+39.8735 	EXP 	trial_stimulus: height = 2.5
+39.8735 	EXP 	trial_stimulus: height = 2.5
+39.8735 	EXP 	trial_stimulus: height = 2.5
+39.8735 	EXP 	trial_stimulus: text = 'H'
+39.8735 	EXP 	trial_stimulus: autoDraw = True
+40.3737 	EXP 	trial_stimulus: autoDraw = False
+41.8580 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+41.8738 	EXP 	trial_stimulus: autoDraw = False
+41.8738 	EXP 	trial_stimulus: height = 2.5
+41.8738 	EXP 	trial_stimulus: height = 2.5
+41.8738 	EXP 	trial_stimulus: height = 2.5
+41.8738 	EXP 	trial_stimulus: text = 'E'
+41.8738 	EXP 	trial_stimulus: autoDraw = True
+42.3741 	EXP 	trial_stimulus: autoDraw = False
+43.8584 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+43.8743 	EXP 	trial_stimulus: autoDraw = False
+43.8743 	EXP 	trial_stimulus: height = 2.5
+43.8743 	EXP 	trial_stimulus: height = 2.5
+43.8743 	EXP 	trial_stimulus: height = 2.5
+43.8743 	EXP 	trial_stimulus: text = 'B'
+43.8743 	EXP 	trial_stimulus: autoDraw = True
+44.3745 	EXP 	trial_stimulus: autoDraw = False
+45.8584 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+45.8748 	EXP 	trial_stimulus: autoDraw = False
+45.8748 	EXP 	trial_stimulus: height = 2.5
+45.8748 	EXP 	trial_stimulus: height = 2.5
+45.8748 	EXP 	trial_stimulus: height = 2.5
+45.8748 	EXP 	trial_stimulus: text = 'C'
+45.8748 	EXP 	trial_stimulus: autoDraw = True
+46.3748 	EXP 	trial_stimulus: autoDraw = False
+47.8589 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+47.8751 	EXP 	trial_stimulus: autoDraw = False
+47.8751 	EXP 	trial_stimulus: height = 2.5
+47.8751 	EXP 	trial_stimulus: height = 2.5
+47.8751 	EXP 	trial_stimulus: height = 2.5
+47.8751 	EXP 	trial_stimulus: text = 'B'
+47.8751 	EXP 	trial_stimulus: autoDraw = True
+48.3754 	EXP 	trial_stimulus: autoDraw = False
+49.8593 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+49.8753 	EXP 	trial_stimulus: autoDraw = False
+49.8753 	EXP 	trial_stimulus: height = 2.5
+49.8753 	EXP 	trial_stimulus: height = 2.5
+49.8753 	EXP 	trial_stimulus: height = 2.5
+49.8753 	EXP 	trial_stimulus: text = 'A'
+49.8753 	EXP 	trial_stimulus: autoDraw = True
+50.3755 	EXP 	trial_stimulus: autoDraw = False
+51.8599 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+51.8759 	EXP 	trial_stimulus: autoDraw = False
+51.8759 	EXP 	trial_stimulus: height = 2.5
+51.8759 	EXP 	trial_stimulus: height = 2.5
+51.8759 	EXP 	trial_stimulus: height = 2.5
+51.8759 	EXP 	trial_stimulus: text = 'C'
+51.8759 	EXP 	trial_stimulus: autoDraw = True
+52.3761 	EXP 	trial_stimulus: autoDraw = False
+53.8603 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+53.8764 	EXP 	trial_stimulus: autoDraw = False
+53.8764 	EXP 	trial_stimulus: height = 2.5
+53.8764 	EXP 	trial_stimulus: height = 2.5
+53.8764 	EXP 	trial_stimulus: height = 2.5
+53.8764 	EXP 	trial_stimulus: text = 'F'
+53.8764 	EXP 	trial_stimulus: autoDraw = True
+54.3764 	EXP 	trial_stimulus: autoDraw = False
+55.8605 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+55.8768 	EXP 	trial_stimulus: autoDraw = False
+55.8768 	EXP 	trial_stimulus: height = 2.5
+55.8768 	EXP 	trial_stimulus: height = 2.5
+55.8768 	EXP 	trial_stimulus: height = 2.5
+55.8768 	EXP 	trial_stimulus: text = 'H'
+55.8768 	EXP 	trial_stimulus: autoDraw = True
+56.3774 	EXP 	trial_stimulus: autoDraw = False
+57.8610 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+57.8773 	EXP 	trial_stimulus: autoDraw = False
+57.8773 	EXP 	trial_stimulus: height = 2.5
+57.8773 	EXP 	trial_stimulus: height = 2.5
+57.8773 	EXP 	trial_stimulus: height = 2.5
+57.8773 	EXP 	trial_stimulus: text = 'F'
+57.8773 	EXP 	trial_stimulus: autoDraw = True
+58.3771 	EXP 	trial_stimulus: autoDraw = False
+59.8613 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+59.8777 	EXP 	trial_stimulus: autoDraw = False
+59.8777 	EXP 	trial_stimulus: height = 2.5
+59.8777 	EXP 	trial_stimulus: height = 2.5
+59.8777 	EXP 	trial_stimulus: height = 2.5
+59.8777 	EXP 	trial_stimulus: text = 'B'
+59.8777 	EXP 	trial_stimulus: autoDraw = True
+60.3777 	EXP 	trial_stimulus: autoDraw = False
+61.8618 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+61.8781 	EXP 	trial_stimulus: autoDraw = False
+61.8781 	EXP 	trial_stimulus: height = 2.5
+61.8781 	EXP 	trial_stimulus: height = 2.5
+61.8781 	EXP 	trial_stimulus: height = 2.5
+61.8781 	EXP 	trial_stimulus: text = 'F'
+61.8781 	EXP 	trial_stimulus: autoDraw = True
+62.3779 	EXP 	trial_stimulus: autoDraw = False
+63.8621 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+63.8786 	EXP 	trial_stimulus: autoDraw = False
+63.8786 	EXP 	trial_stimulus: height = 2.5
+63.8786 	EXP 	trial_stimulus: height = 2.5
+63.8786 	EXP 	trial_stimulus: height = 2.5
+63.8786 	EXP 	trial_stimulus: text = 'G'
+63.8786 	EXP 	trial_stimulus: autoDraw = True
+64.3786 	EXP 	trial_stimulus: autoDraw = False
+65.8627 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+65.8787 	EXP 	trial_stimulus: autoDraw = False
+65.8787 	EXP 	trial_stimulus: height = 2.5
+65.8787 	EXP 	trial_stimulus: height = 2.5
+65.8787 	EXP 	trial_stimulus: height = 2.5
+65.8787 	EXP 	trial_stimulus: text = 'C'
+65.8787 	EXP 	trial_stimulus: autoDraw = True
+66.3790 	EXP 	trial_stimulus: autoDraw = False
+67.8630 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+67.8793 	EXP 	trial_stimulus: autoDraw = False
+67.8793 	EXP 	trial_stimulus: height = 2.5
+67.8793 	EXP 	trial_stimulus: height = 2.5
+67.8793 	EXP 	trial_stimulus: height = 2.5
+67.8793 	EXP 	trial_stimulus: text = 'H'
+67.8793 	EXP 	trial_stimulus: autoDraw = True
+68.3793 	EXP 	trial_stimulus: autoDraw = False
+69.8639 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+69.8795 	EXP 	trial_stimulus: autoDraw = False
+69.8795 	EXP 	trial_stimulus: height = 2.5
+69.8795 	EXP 	trial_stimulus: height = 2.5
+69.8795 	EXP 	trial_stimulus: height = 2.5
+69.8795 	EXP 	trial_stimulus: text = 'B'
+69.8795 	EXP 	trial_stimulus: autoDraw = True
+70.3796 	EXP 	trial_stimulus: autoDraw = False
+71.8639 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+71.8801 	EXP 	trial_stimulus: autoDraw = False
+71.8801 	EXP 	trial_stimulus: height = 2.5
+71.8801 	EXP 	trial_stimulus: height = 2.5
+71.8801 	EXP 	trial_stimulus: height = 2.5
+71.8801 	EXP 	trial_stimulus: text = 'G'
+71.8801 	EXP 	trial_stimulus: autoDraw = True
+72.3801 	EXP 	trial_stimulus: autoDraw = False
+73.8643 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+73.8803 	EXP 	trial_stimulus: autoDraw = False
+73.8803 	EXP 	trial_stimulus: height = 2.5
+73.8803 	EXP 	trial_stimulus: height = 2.5
+73.8803 	EXP 	trial_stimulus: height = 2.5
+73.8803 	EXP 	trial_stimulus: text = 'H'
+73.8803 	EXP 	trial_stimulus: autoDraw = True
+74.3805 	EXP 	trial_stimulus: autoDraw = False
+75.8646 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+75.8807 	EXP 	trial_stimulus: autoDraw = False
+75.8807 	EXP 	trial_stimulus: height = 2.5
+75.8807 	EXP 	trial_stimulus: height = 2.5
+75.8807 	EXP 	trial_stimulus: height = 2.5
+75.8807 	EXP 	trial_stimulus: text = 'G'
+75.8807 	EXP 	trial_stimulus: autoDraw = True
+76.3811 	EXP 	trial_stimulus: autoDraw = False
+77.8650 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+77.8812 	EXP 	trial_stimulus: autoDraw = False
+77.8812 	EXP 	trial_stimulus: height = 2.5
+77.8812 	EXP 	trial_stimulus: height = 2.5
+77.8812 	EXP 	trial_stimulus: height = 2.5
+77.8812 	EXP 	trial_stimulus: text = 'C'
+77.8812 	EXP 	trial_stimulus: autoDraw = True
+78.3811 	EXP 	trial_stimulus: autoDraw = False
+79.8652 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+79.8815 	EXP 	trial_stimulus: autoDraw = False
+79.8815 	EXP 	trial_stimulus: height = 2.5
+79.8815 	EXP 	trial_stimulus: height = 2.5
+79.8815 	EXP 	trial_stimulus: height = 2.5
+79.8815 	EXP 	trial_stimulus: text = 'F'
+79.8815 	EXP 	trial_stimulus: autoDraw = True
+80.3817 	EXP 	trial_stimulus: autoDraw = False
+81.8658 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+81.8819 	EXP 	trial_stimulus: autoDraw = False
+81.8819 	EXP 	trial_stimulus: height = 2.5
+81.8819 	EXP 	trial_stimulus: height = 2.5
+81.8819 	EXP 	trial_stimulus: height = 2.5
+81.8819 	EXP 	trial_stimulus: text = 'G'
+81.8819 	EXP 	trial_stimulus: autoDraw = True
+82.3822 	EXP 	trial_stimulus: autoDraw = False
+83.8661 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+83.8824 	EXP 	trial_stimulus: autoDraw = False
+83.8824 	EXP 	trial_stimulus: height = 2.5
+83.8824 	EXP 	trial_stimulus: height = 2.5
+83.8824 	EXP 	trial_stimulus: height = 2.5
+83.8824 	EXP 	trial_stimulus: text = 'H'
+83.8824 	EXP 	trial_stimulus: autoDraw = True
+84.3826 	EXP 	trial_stimulus: autoDraw = False
+85.8666 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+85.8829 	EXP 	trial_stimulus: autoDraw = False
+85.8829 	EXP 	trial_stimulus: height = 2.5
+85.8829 	EXP 	trial_stimulus: height = 2.5
+85.8829 	EXP 	trial_stimulus: height = 2.5
+85.8829 	EXP 	trial_stimulus: text = 'C'
+85.8829 	EXP 	trial_stimulus: autoDraw = True
+86.3829 	EXP 	trial_stimulus: autoDraw = False
+87.8670 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+87.8833 	EXP 	trial_stimulus: autoDraw = False
+87.8833 	EXP 	trial_stimulus: height = 2.5
+87.8833 	EXP 	trial_stimulus: height = 2.5
+87.8833 	EXP 	trial_stimulus: height = 2.5
+87.8833 	EXP 	trial_stimulus: text = 'H'
+87.8833 	EXP 	trial_stimulus: autoDraw = True
+88.3833 	EXP 	trial_stimulus: autoDraw = False
+89.8675 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+89.8835 	EXP 	trial_stimulus: autoDraw = False
+89.8835 	EXP 	trial_stimulus: height = 2.5
+89.8835 	EXP 	trial_stimulus: height = 2.5
+89.8835 	EXP 	trial_stimulus: height = 2.5
+89.8835 	EXP 	trial_stimulus: text = 'C'
+89.8835 	EXP 	trial_stimulus: autoDraw = True
+90.3838 	EXP 	trial_stimulus: autoDraw = False
+91.8677 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+91.8841 	EXP 	trial_stimulus: autoDraw = False
+91.8841 	EXP 	trial_stimulus: height = 2.5
+91.8841 	EXP 	trial_stimulus: height = 2.5
+91.8841 	EXP 	trial_stimulus: height = 2.5
+91.8841 	EXP 	trial_stimulus: text = 'A'
+91.8841 	EXP 	trial_stimulus: autoDraw = True
+92.3842 	EXP 	trial_stimulus: autoDraw = False
+93.8682 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+93.8845 	EXP 	trial_stimulus: autoDraw = False
+93.8845 	EXP 	trial_stimulus: height = 2.5
+93.8845 	EXP 	trial_stimulus: height = 2.5
+93.8845 	EXP 	trial_stimulus: height = 2.5
+93.8845 	EXP 	trial_stimulus: text = 'C'
+93.8845 	EXP 	trial_stimulus: autoDraw = True
+94.3846 	EXP 	trial_stimulus: autoDraw = False
+95.8686 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+95.8849 	EXP 	trial_stimulus: autoDraw = False
+95.8849 	EXP 	trial_stimulus: height = 2.5
+95.8849 	EXP 	trial_stimulus: height = 2.5
+95.8849 	EXP 	trial_stimulus: height = 2.5
+95.8849 	EXP 	trial_stimulus: text = 'G'
+95.8849 	EXP 	trial_stimulus: autoDraw = True
+96.3850 	EXP 	trial_stimulus: autoDraw = False
+97.8691 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+97.8852 	EXP 	trial_stimulus: autoDraw = False
+97.8852 	EXP 	trial_stimulus: height = 2.5
+97.8852 	EXP 	trial_stimulus: height = 2.5
+97.8852 	EXP 	trial_stimulus: height = 2.5
+97.8852 	EXP 	trial_stimulus: text = 'F'
+97.8852 	EXP 	trial_stimulus: autoDraw = True
+98.3853 	EXP 	trial_stimulus: autoDraw = False
+99.8693 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+99.8857 	EXP 	trial_stimulus: autoDraw = False
+99.8857 	EXP 	trial_stimulus: height = 2.5
+99.8857 	EXP 	trial_stimulus: height = 2.5
+99.8857 	EXP 	trial_stimulus: height = 2.5
+99.8857 	EXP 	trial_stimulus: text = 'B'
+99.8857 	EXP 	trial_stimulus: autoDraw = True
+100.3858 	EXP 	trial_stimulus: autoDraw = False
+101.8698 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+101.8858 	EXP 	trial_stimulus: autoDraw = False
+101.8858 	EXP 	trial_stimulus: height = 2.5
+101.8858 	EXP 	trial_stimulus: height = 2.5
+101.8858 	EXP 	trial_stimulus: height = 2.5
+101.8858 	EXP 	trial_stimulus: text = 'A'
+101.8858 	EXP 	trial_stimulus: autoDraw = True
+102.3861 	EXP 	trial_stimulus: autoDraw = False
+103.8703 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+103.8863 	EXP 	trial_stimulus: autoDraw = False
+103.8863 	EXP 	trial_stimulus: height = 2.5
+103.8863 	EXP 	trial_stimulus: height = 2.5
+103.8863 	EXP 	trial_stimulus: height = 2.5
+103.8863 	EXP 	trial_stimulus: text = 'H'
+103.8863 	EXP 	trial_stimulus: autoDraw = True
+104.3864 	EXP 	trial_stimulus: autoDraw = False
+105.8705 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+105.8867 	EXP 	trial_stimulus: autoDraw = False
+105.8867 	EXP 	trial_stimulus: height = 2.5
+105.8867 	EXP 	trial_stimulus: height = 2.5
+105.8867 	EXP 	trial_stimulus: height = 2.5
+105.8867 	EXP 	trial_stimulus: text = 'D'
+105.8867 	EXP 	trial_stimulus: autoDraw = True
+106.3870 	EXP 	trial_stimulus: autoDraw = False
+107.8711 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+107.8871 	EXP 	trial_stimulus: autoDraw = False
+107.8871 	EXP 	trial_stimulus: height = 2.5
+107.8871 	EXP 	trial_stimulus: height = 2.5
+107.8871 	EXP 	trial_stimulus: height = 2.5
+107.8871 	EXP 	trial_stimulus: text = 'B'
+107.8871 	EXP 	trial_stimulus: autoDraw = True
+108.3873 	EXP 	trial_stimulus: autoDraw = False
+109.8717 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+109.8877 	EXP 	trial_stimulus: autoDraw = False
+109.8877 	EXP 	trial_stimulus: height = 2.5
+109.8877 	EXP 	trial_stimulus: height = 2.5
+109.8877 	EXP 	trial_stimulus: height = 2.5
+109.8877 	EXP 	trial_stimulus: text = 'D'
+109.8877 	EXP 	trial_stimulus: autoDraw = True
+110.3878 	EXP 	trial_stimulus: autoDraw = False
+111.8553 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+111.8714 	EXP 	trial_stimulus: autoDraw = False
+111.8714 	EXP 	trial_stimulus: height = 2.5
+111.8714 	EXP 	trial_stimulus: height = 2.5
+111.8714 	EXP 	trial_stimulus: height = 2.5
+111.8714 	EXP 	trial_stimulus: text = 'A'
+111.8714 	EXP 	trial_stimulus: autoDraw = True
+112.3715 	EXP 	trial_stimulus: autoDraw = False
+113.8556 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+113.8718 	EXP 	trial_stimulus: autoDraw = False
+113.8718 	EXP 	trial_stimulus: height = 2.5
+113.8718 	EXP 	trial_stimulus: height = 2.5
+113.8718 	EXP 	trial_stimulus: height = 2.5
+113.8718 	EXP 	trial_stimulus: text = 'F'
+113.8718 	EXP 	trial_stimulus: autoDraw = True
+114.3719 	EXP 	trial_stimulus: autoDraw = False
+115.8560 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+115.8721 	EXP 	trial_stimulus: autoDraw = False
+115.8721 	EXP 	trial_stimulus: height = 2.5
+115.8721 	EXP 	trial_stimulus: height = 2.5
+115.8721 	EXP 	trial_stimulus: height = 2.5
+115.8721 	EXP 	trial_stimulus: text = 'C'
+115.8721 	EXP 	trial_stimulus: autoDraw = True
+116.3723 	EXP 	trial_stimulus: autoDraw = False
+117.8563 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+117.8728 	EXP 	trial_stimulus: autoDraw = False
+117.8728 	EXP 	trial_stimulus: height = 2.5
+117.8728 	EXP 	trial_stimulus: height = 2.5
+117.8728 	EXP 	trial_stimulus: height = 2.5
+117.8728 	EXP 	trial_stimulus: text = 'F'
+117.8728 	EXP 	trial_stimulus: autoDraw = True
+118.3728 	EXP 	trial_stimulus: autoDraw = False
+119.9199 	EXP 	trial_stimulus: autoDraw = False
+119.9199 	EXP 	textBlockEnd: autoDraw = True
+120.8799 	EXP 	textBlockEnd: autoDraw = False
+120.8799 	EXP 	slider_confidence: markerPos = None
+120.8799 	EXP 	slider_confidence: markerPos = None
+120.8799 	EXP 	text_confidencetask: autoDraw = True
+120.8799 	EXP 	slider_confidence: autoDraw = True
+124.9320 	DATA 	Mouse: Left button down, pos=(1064,435)
+124.9573 	EXP 	slider_confidence: markerPos = 3.489981757602256
+124.9740 	EXP 	slider_confidence: markerPos = 3.489981757602256
+124.9906 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0074 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0238 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0405 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0480 	DATA 	Mouse:  Left button up, pos=(1064,435)
+125.0571 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0737 	EXP 	slider_confidence: markerPos = 3.489981757602256
+125.0746 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+125.0905 	EXP 	text_confidencetask: autoDraw = False
+125.0905 	EXP 	slider_confidence: autoDraw = False
+125.0905 	EXP 	textBlockStart2: height = 1.0000000000000004
+125.0905 	EXP 	textBlockStart2: height = 1.0000000000000004
+125.0905 	EXP 	textBlockStart2: height = 1.0000000000000004
+125.0905 	EXP 	textBlockStart2: text = 2
+125.0905 	EXP 	textBlockStart1: autoDraw = True
+125.0905 	EXP 	textBlockStart2: autoDraw = True
+125.0905 	EXP 	textBlockStart3: autoDraw = True
+128.1106 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+128.1141 	DATA 	Keypress: space
+128.1246 	EXP 	textBlockStart1: autoDraw = False
+128.1246 	EXP 	textBlockStart2: autoDraw = False
+128.1246 	EXP 	textBlockStart3: autoDraw = False
+128.1246 	EXP 	trial_stimulus: height = 2.5
+128.1246 	EXP 	trial_stimulus: height = 2.5
+128.1246 	EXP 	trial_stimulus: height = 2.5
+128.1246 	EXP 	trial_stimulus: text = 'E'
+128.1246 	EXP 	trial_stimulus: autoDraw = True
+128.6249 	EXP 	trial_stimulus: autoDraw = False
+129.4607 	DATA 	Keypress: escape
+129.5436 	EXP 	n-back: status = STOPPED
+129.5585 	EXP 	n-back: status = STOPPED
